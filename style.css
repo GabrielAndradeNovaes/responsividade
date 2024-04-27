@@ -1,0 +1,292 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0 ;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+@media (min-width: 768px){
+    body{
+        padding: 0 15% !important;
+        background-color: rgb(218, 218, 218) !important;
+        }
+        
+        
+        header h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 80px;
+            font-size: 50px;
+            font-family: constantia;
+        }
+        
+        .wrapper{
+            background-color: white;
+            padding: 15px;
+        }
+
+        .sub{
+            background-color: #c0c0c0 !important;
+            width: 100%;
+            text-align: center;
+            padding: 5px;
+        }
+        
+        
+        .flex{
+            display:  flex;
+            flex-direction: row;
+            gap: 40px;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-top: 15px;
+        }
+        
+        .imagem{
+            object-fit: cover;
+            width: 100%;
+        }
+        .imagem img{
+            width: 100%;
+        }
+        
+        .botao{
+            display: block;
+            background-color: #0000ff;
+            color: white;
+            height: 40px;
+            width: 80px;
+            border: none;
+            margin-right: 10px;
+        }
+        
+        .div-botao{
+            width: 100%;
+            display: flex;
+            justify-content: right;
+            margin-top: 80px;
+            margin-bottom: 10px;
+        }
+        
+        
+        
+        .lista {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        
+            font-size: 25px;
+            color: black;
+            list-style:  none;
+            background-color: #c0c0c0;
+            height: 55px;
+        }
+        
+        .box{
+        
+            width: 30%;
+            object-fit: cover;
+            border: solid 1px rgb(68, 68, 68);
+            min-width: 220px;
+        }
+        
+        .box2{
+        
+            width: 40%;
+            border: solid 1px rgb(68, 68, 68);
+            padding: 15px;
+            background-color: rgb(218, 218, 218);
+        }
+        
+        .box img{
+            width: 100%;
+            max-height: 120px;
+        }
+        
+        .bloco{
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .bloco h1{
+            margin: 10px 0;
+        }
+        
+
+        .conteudo h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .conteudo p{
+            padding-top: 10px;
+        }
+
+        .text-overflow-ellipses {
+            white-space: pre-line;
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+       }
+}
+
+@media (min-width: 992px){
+    body{
+        padding: 0 15% !important;
+        background-color: rgb(218, 218, 218) !important;
+        }
+        
+        
+        header h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 80px;
+            font-size: 50px;
+            font-family: constantia;
+        }
+        
+        .wrapper{
+            background-color: white;
+            padding: 15px;
+        }
+        
+        
+        .flex{
+            /*padding: 40px;*/
+            display:  flex;
+            flex-direction: row;
+            gap: 40px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding-top: 15px;
+        }
+        
+        .imagem{
+            object-fit: cover;
+            width: 100%;
+        }
+        .imagem img{
+            width: 100%;
+        }
+        
+        .botao{
+            display: block;
+            background-color: #0000ff;
+            color: white;
+            height: 40px;
+            width: 80px;
+            border: none;
+            margin-right: 10px;
+        }
+        
+        .div-botao{
+            width: 100%;
+            display: flex;
+            justify-content: right;
+            margin-top: 80px;
+        }
+        
+        
+        
+        .lista {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        
+            font-size: 25px;
+            color: black;
+            list-style:  none;
+            background-color: #c0c0c0;
+            height: 55px;
+        }
+        
+        .box{
+        
+            width: 30%;
+            object-fit: cover;
+            border: solid 1px rgb(68, 68, 68);
+            min-width: 300px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        
+        .box2{
+        
+            width: 64.2%;
+            height: 400px;
+            object-fit: cover;
+            border: solid 1px rgb(68, 68, 68);
+            min-width: 300px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .box img{
+            width: 100%;
+            max-height: 150px;
+        }
+        
+        .bloco{
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .bloco h1{
+            margin: 10px 0;
+        }
+        
+        .conteudo h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .conteudo p{
+            padding-top: 10px;
+        }
+}
